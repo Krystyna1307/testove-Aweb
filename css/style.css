@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 20px;
+}
+
+.hole-table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+.hole-row {
+  border: 1px solid #000;
+}
+
+.hole-image-cell,
+.hole-description-cell {
+  border: 1px solid #000;
+  padding: 15px;
+  vertical-align: top;
+}
+
+.hole-image {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.hole-description {
+  line-height: 1.2;
+  margin: 0 0 10px 0;
+}
+
+.pdf-link {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+.pdf-link:hover {
+  text-decoration: underline;
+}

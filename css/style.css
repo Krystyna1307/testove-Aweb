@@ -1,7 +1,33 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #fff;
-  margin: 20px;
+  margin: 60px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+.perforation-title,
+.advantages-title,
+.advantages-title-second {
+  text-align: center;
+}
+
+h4 {
+  margin: 0;
+}
+
+.title {
+  margin-bottom: 20px;
 }
 
 .hole-table {
@@ -23,7 +49,7 @@ body {
 }
 
 .hole-image {
-  max-width: 100px;
+  max-width: 160px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -38,8 +64,32 @@ body {
   display: inline-block;
   color: #000;
   text-decoration: none;
+  padding-top: 40px;
+  padding-left: 50px;
 }
 
 .pdf-link:hover {
   text-decoration: underline;
+}
+
+.image-text-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.advantages-img {
+  width: 350px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.image-text-wrapper .text {
+  flex: 1;
+}
+
+.text-title {
+  font-weight: normal;
+  margin-top: 0;
 }
